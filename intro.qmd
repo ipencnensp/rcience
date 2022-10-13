@@ -1,0 +1,12 @@
+# Introdução
+
+- Momento atual da ciência baseada em dados
+- Importância de metodologia apropriada para gerir um projeto científico individual (mestrado, doutorado, etc):
+  - controle de versão de arquivos de dados;
+  - organização dos dados, escolhas de nomes apropriados
+  - documentação dos dados de modo abrangente e completo.
+- Análise de dados científicos com rigor estatístico
+- Uso de ferramentas que favoreçam reprodutibilidade e diminuição de trabalho repetitivo.
+
+
+
