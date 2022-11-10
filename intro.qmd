@@ -1,12 +1,21 @@
 # Introdução
 
-- Momento atual da ciência baseada em dados
-- Importância de metodologia apropriada para gerir um projeto científico individual (mestrado, doutorado, etc):
-  - controle de versão de arquivos de dados;
-  - organização dos dados, escolhas de nomes apropriados
-  - documentação dos dados de modo abrangente e completo.
-- Análise de dados científicos com rigor estatístico
-- Uso de ferramentas que favoreçam reprodutibilidade e diminuição de trabalho repetitivo.
+-   Momento atual da ciência baseada em dados
+-   Importância de metodologia apropriada para gerir um projeto científico individual (mestrado, doutorado, etc):
+    -   controle de versão de arquivos de dados;
+    -   organização dos dados, escolhas de nomes apropriados
+    -   documentação dos dados de modo abrangente e completo.
+-   Análise de dados científicos com rigor estatístico
+-   Uso de ferramentas que favoreçam reprodutibilidade e diminuição de trabalho repetitivo.
 
+No centro do desenvolvimento científico está a descoberta de novos conhecimentos; a geração, suporte e manutenção do conhecimento formam a fundação do desafio científico. Um dos pilares da ciência é a possibilidade de reprodução dos resultados de pesquisas científicas por pesquisadores independentes, tornando possível a validação dos métodos, dos resultados e suas conclusões.
 
+Para que isto seja possível no cenário atual, onde a produção de dados científicos tomou uma proporção gigantesca ("big data"), métodos sistemáticos de armazenamento, curadoria e disponibilização dos dados precisam ser implementados.
 
+Diante desta avalanche de dados disponíveis, todo o processo científico é impactado, possibilitando o surgimento nos dias atuais, de um novo paradigma científico: a e-Science, (ou e-Ciência). Este novo paradigma, denominado "O quarto paradigma da exploração científica", distingue a ciência intensiva em dados da ciência computacional tradicional (@jimgray4th).
+
+E-Science, em última instância, está relacionada à descoberta e ao compartilhamento do conhecimento na forma de dados experimentais, vocabulários teóricos ricos, publicações e serviços reutilizáveis que sejam úteis à comunidade científica.
+
+A complexidade e a abundância de recursos de dados em um ambiente de e-Science requer suporte para a gestão do conhecimento e dos metadados; dados são sabidamente difíceis de compartilhar, encontrar, acessar, interpretar e reutilizar.
+
+A disponibilização dos dados subjacentes aos artigos científicos publicados, tem sido colocada como exigência por algumas revistas inovadoras no meio científico (@fabricio2014). Neste mesmo artigo, @fabricio2014 cita frase de pesquisadora da Unicamp: "O compartilhamento de dados para reutilização ou reprodução de experimentos exige conhecer sua origem e entender como foram produzidos, associando à informação, métodos, algoritmos ou técnicas adotados, e ainda ter acesso ao software necessário para processá-los, o que torna o processo bastante complexo. Sem isso, pode não ser possível reproduzir o experimento original ou reutilizar o dado em uma outra pesquisa"
