@@ -1,12 +1,14 @@
 # Introdução
 
--   Momento atual da ciência baseada em dados
+<!--
+-   Momento atual da ciência baseada em dados  (acho que isso não precisa)
 -   Importância de metodologia apropriada para gerir um projeto científico individual (mestrado, doutorado, etc):
     -   controle de versão de arquivos de dados;
     -   organização dos dados, escolhas de nomes apropriados
     -   documentação dos dados de modo abrangente e completo.
 -   Análise de dados científicos com rigor estatístico
 -   Uso de ferramentas que favoreçam reprodutibilidade e diminuição de trabalho repetitivo.
+-->
 
 No centro do desenvolvimento científico está a descoberta de novos conhecimentos; a geração, suporte e manutenção do conhecimento formam a fundação do desafio científico. Um dos pilares da ciência é a possibilidade de reprodução dos resultados de pesquisas científicas por pesquisadores independentes, tornando possível a validação dos métodos, dos resultados e suas conclusões.
 
@@ -19,3 +21,16 @@ E-Science, em última instância, está relacionada à descoberta e ao compartil
 A complexidade e a abundância de recursos de dados em um ambiente de e-Science requer suporte para a gestão do conhecimento e dos metadados; dados são sabidamente difíceis de compartilhar, encontrar, acessar, interpretar e reutilizar.
 
 A disponibilização dos dados subjacentes aos artigos científicos publicados, tem sido colocada como exigência por algumas revistas inovadoras no meio científico (@fabricio2014). Neste mesmo artigo, @fabricio2014 cita frase de pesquisadora da Unicamp: "O compartilhamento de dados para reutilização ou reprodução de experimentos exige conhecer sua origem e entender como foram produzidos, associando à informação, métodos, algoritmos ou técnicas adotados, e ainda ter acesso ao software necessário para processá-los, o que torna o processo bastante complexo. Sem isso, pode não ser possível reproduzir o experimento original ou reutilizar o dado em uma outra pesquisa"
+
+Neste cenário, é indispensável que o pesquisador adote uma metodologia apropriada para gerir o seu projeto científico, tanto no âmbito individual como coletivo, seja uma dissertação ou tese, ou um projeto amplo, que englobe várias pessoas e instituições.
+
+A utilização de ferramentas tecnológicas é um imperativo no trabalho científico em geral; os pesquisadores estão acostumados a utilizar softwares para analisar os dados, gerando gráficos e produzindo resultados de modelagem estatística; também utilizam os softwares para a elaboração de documentos e textos científicos; normalmente, algumas ferramentas também são utilizadas para o gerenciamento de referências bibliográficas. 
+
+Uma prática bem comum é que durante um trabalho acadêmico de mestrado ou doutorado, o pesquisador utilize vários e diferentes softwares, acumule diversos arquivos de dados e produza então o texto do trabalho (dissertação ou tese) bem como artigos a serem publicados em periódicos. 
+
+Ocorre que, em grande percentual dos casos, os dados utilizados por estes pesquisadores e as análises realizadas para produzir os seus resultados nem sempre são documentados de forma apropriada, o que resulta em uma grande dificuldade de reprodução dos resultados e reutilização dos dados em outras pesquisas. É comum, por exemplo, o orientador não conseguir entender ou nem conseguir localizar todos os dados utilizados pelo aluno no seu trabalho de pesquisa. 
+
+Essa realidade, presente em diversos ambientes de pesquisa, surge da falta de metodologia apropriada, do não uso de ferramentas apropriadas e da não adoção de práticas eficientes durante o curso da pesquisa.
+
+Neste livro, nosso objetivo é apresentar algumas soluções realizáveis para estes problemas de modo que possam ser adotadas por qualquer pesquisador nos mais diversos tipos de projetos científicos, facilitando assim, que ao final do projeto, os dados estejam apropriadamente documentados, que as análises sejam todas reproduzíveis e assim, a qualidade dos resultados seja promovida a um novo patamar.
+

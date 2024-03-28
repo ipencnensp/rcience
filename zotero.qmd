@@ -1,0 +1,72 @@
+---
+title: "Gerenciamento de Referências com Zotero"
+author: "Mário O. de Menezes"
+format:
+  revealjs: 
+    theme: moon
+---
+
+# Gerenciamento de Referências
+
+* Referências bibliográficas são elementos básicos do trabalho científico.
+* Podem ser reutilizadas muitas vezes em um mesmo projeto de pesquisa.
+* Podem ser utilizadas por diferentes pessoas em um mesmo projeto de pesquisa.
+* Podem ser utilizadas em diferentes documentos, que exigem diferentes formatações.
+
+# Gerenciamento Manual
+
+* Dificuldade de atender (entender) todos os padrões de formatação.
+* Dificuldade de reutilizar referências em diferentes documentos.
+* Dificuldade de compartilhar as referências de modo útil.
+* Dificuldade de mudar a formatação para diferentes documentos.
+
+# Gerenciamento com Software
+
+* Criação de base de referências bibliográficas.
+* Possibilidade de compartilhamento de base com membros de projeto.
+* Padronização na formatação.
+* Facilidade em mudar formatação de acordo com alvo de publicação.
+
+# Softwares para Gerenciamento de Referências
+
+* Zotero (minha escolha)
+* Mendeley
+* EndNote
+* vários outros
+
+#  Zotero
+
+* Software livre para gerenciamento de referências.
+* Web, desktop, extensão Chrome, plugins editores de texto
+* Permite criação de grupos:
+   - Base de referências compartilhada
+   - Facilidade para documentos na nuvem (Google Docs).
+* Folhas de estilo para formatação.
+
+# Versão Web
+
+::: {#zotero-web layout-ncol=2}
+
+[![](figuras/zotero_web_home.png)](https://www.zotero.org){width=80%}
+
+[![](figuras/zotero_web_home_LogIn_Register.png)](https://www.zotero.org){width=80%}
+
+:::
+
+
+# Cadastro e Validação
+
+::: {#zotero-web-register layout-ncol=2 }
+
+![](figuras/zotero_web_home_Register.png){width=40vw}
+
+![](figuras/zotero_web_home_Validation.png){width=40vw}
+
+:::
+
+# Desktop e Extensão Navegadores
+
+[![](figuras/zotero_desktop_connector.png)](https://www.zotero.org/download/){width=80vw}
+
+# Versão Desktop
+

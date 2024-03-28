@@ -1,0 +1,257 @@
+---
+title: "Busca sistemática de literatura"
+author: "Mário O. de Menezes"
+format:
+  revealjs:
+    embed-resources: true
+    theme: [night]
+---
+
+# Introdução
+
+## Procurando artigos, livros, publicações ...
+
+::: {.r-stack}
+
+:::: {.columns .fragment .fade-in-then-out}
+::: {.column width="40%" }
+![](imagens/Gemini_Generated_Image_searching_book_pile.jpeg){fig-alt="A person looking for a text in a book pile" fig-align="center" }
+
+:::
+::: {.column width="40%"}
+![](imagens/Gemini_Generated_Image_searching_book_pile_2.jpeg){fig-alt="Uma pessoa procurando um livro ou jornal em uma pilha bem grande." fig-align="center"}
+:::
+::::
+
+![](imagens/DALL·E 2024-03-28 12.07.26-searching_a_pile.png){fig-alt="Uma pessoa (desenho) procurando algo em uma pilha de livros" fig-align="center" .fragment .fade-in-then-out width="450"}
+
+::: {.fragment .fade-in}
+
+### Como encontrar?
+
+Tem havido uma explosão no número de ferramentas que utilizam IA e ML para facilitar grandemente este processo.
+
+:::
+:::
+
+
+<!-- ; vamos explorar rapidamente algumas:
+
+-   mais com o objetivo de torná-las conhecidas;
+-   menos com o objetivo de esgotar o potencial de cada uma.
+-->
+
+## Classificação das ferramentas
+
+Uma divisão interessante que tem sido apresentada para estas ferramentas é a classificação quanto à finalidade principal da ferramenta.
+
+|      Finalidade       | Ferramentas                                          |
+|:-------------------------:|:-------------------------------------------|
+|  Busca de Literatura  | Semantic Scholar, Connected Papers, Inciteful e BASE |
+| Revisão de Literatura | Scite AI, Paperpal e Litmaps                         |
+|   Síntese & Análise   | Elicit, Scispace e Scholarcy                         |
+
+```{=html}
+<!-- uma divisão interessante que vi neste post no X: tipo de funcionalidade de cada site/app
+- Busca de Literatura: Semantic Scholar, Connected Papers e BASE
+- Revisão de Literatura: Scite AI, Paperpal e Litmaps
+- Síntese & Análise: Elicit, Scispace e Scholarcy
+
+-->
+```
+# Busca de Literatura
+
+## Semantic Scholar
+
+::: {.r-stack }
+
+::: {.fragment .fade-in-then-out}
+
+* https://www.semanticscholar.org/ <!-- parece ser muito bom mesmo para Busca de Literatura
+Semantic Scholar cuts through noise to find high-quality, relevant research.
+-->
+
+* Busca de artigos científicos utilizando IA. Uma quantidade gigantesca de artigos na base de dados.
+
+* A busca pode ser uma pergunta científica, um conjunto de _keywords_, etc.
+
+:::
+
+
+![](figuras/semantic_scholar_home.png){.fragment width=700px}
+
+![](figuras/semantic_scholar_primeiros_resultados_digitando.png){.fragment width=700px}
+:::
+
+
+
+
+# Revisão de Literatura
+
+# Síntese & Análise
+
+## elicit.com (1)
+::: {style="font-size: 75%"}
+
+-   Faça uma pergunta científica, usando o inglês coloquial para receber artigos científicos que respondem à sua pergunta.
+
+-   Uma ferramenta muito boa para começar a pesquisa sobre um tema, ter os primeiros *insigths* de artigos, etc.
+
+-   Por exemplo, uma pergunta simples:
+
+    -   "how are patients with metastatic prostate cancer treated in Brazilian Health Service SUS"
+
+-   Outra pergunta:
+
+    -   "Light-Based treatment Improve Stem Cell Therapy for Skin Wounds"
+
+:::
+
+## elicit.com (2)
+
+-   O Elicit oferece a possibilidade de fazer um "brainstorming" com a pergunta, gerando outras possíveis perguntas interessantes:
+
+![Elicit Brainstorming offer](./figuras/elicit_brainstorming_offer.png){height="100"} ![Elicit Brainstorming example](./figuras/elicit_brainstorming.png){height="150"}
+
+## inciteful.xyz (1)
+
+::: {style="font-size: 75%"}
+
+-   Uma ferramenta para a construção de uma rede de artigos científicos;
+
+-   A análise desta rede provê *insights* muito relevantes sobre as conexões, citações, etc.
+
+-   A ferramenta traz os artigos mais relevantes dentro da rede, e um compilado de possíveis revisões sistemáticas, e outros artigos mais importantes, a partir da análise dos dados.
+
+-   Comece a busca com o título, DOI, URL da PubMed, ou URL do arXiv.
+:::
+
+## inciteful.xyz (2)
+
+-   Selecionei um artigo dos resultados do Elicit:
+
+::: panel-tabset
+## Resultado Elicit
+
+![](./figuras/elicit_resultado.png){height="400"}
+
+## Busca Inciteful
+
+![](./figuras/inciteful_1.png){height="400"}
+:::
+
+## inciteful.xyz (3)
+
+::: panel-tabset
+## Rede
+
+![](./figuras/inciteful_rede.png){height="450"}
+
+## Similares
+
+![](./figuras/inciteful_similares.png){height="450"}
+
+## Mais Importantes
+
+![](./figuras/inciteful_mostimportantes_review.png){height="450"}
+
+## Top Authors
+
+![](./figuras/inciteful_topauthors_recent.png){height="450"}
+:::
+
+## Litmaps.com (1)
+
+-   Uma outra ferramenta para ajudar a fazer revisões de literatura.
+
+-   Também trabalha com a ideia de construção de rede bibliométrica.
+
+-   Permite entender as conexões entre os artigos e a evolução de um tema através das citações.
+
+-   Com isso, permite entender o que cada artigo contribuiu para a evolução do assunto.
+
+-   Vou usar o mesmo artigo como "semente".
+
+## Litmaps.com (2)
+
+::: panel-tabset
+## DOI
+
+![](./figuras/litmaps.png)
+
+## Título
+
+![](./figuras/litmaps_2.png)
+:::
+
+## Litmaps -- resultado da busca
+
+![](./figuras/litmaps_resultado.png)
+
+## Litmaps -- usando Discover (login)
+
+::: panel-tabset
+## Discover
+
+::: {style="font-size: 80%;"}
+-   *Discover* vai buscar artigos relacionados e recomendar novos; fazemos uma conferência cruzada dos novos artigos recomendados com aqueles que já tínhamos em nossa coleção para ver se tem algum novo artigo relevante que não havíamos encontrado.
+
+-   A busca tradicional de literatura tem essa pequena fraqueza: usar apenas *palavras chaves*. Utilizando a busca de artigos relacionados *sem palavras chaves*, o Litmaps consegue prover uma maior diversidade de sugestões.
+
+-   O *Discover* do Litmaps pode sugerir artigos onde, por exemplo, o nome de substâncias ou tópicos são diferentes do que foi utilizado inicialmente na busca.
+:::
+
+## Resultado
+
+![](./figuras/litmaps_resultado_1.png){height="500"}
+:::
+
+## EvidenceHunt.com (1)
+
+::: {style="font-size: 70%;"}
+-   Permite a busca de **evidências clínicas** de modo rápido e efetivo.
+
+-   Usa Inteligência Artificial para mostrar a análise PICO dos artigos, de modo a responder a questões clínicas rapidamente.
+:::
+
+::: panel-tabset
+## Mesmo Artigo
+
+![](./figuras/evidencehunt.png){height="300"}
+
+## How it Works
+
+![](./figuras/evidencehunt_howworks.png){height="300"}
+
+## Buscando
+
+![](./figuras/evidencehunt_1.png){width="500"}
+:::
+
+## EvidenceHunt (2)
+
+::: panel-tabset
+## Resultado
+
+![](./figuras/evidencehunt_resultado.png){height="500"}
+
+## Pico
+
+![](./figuras/evidencehunt_pico.png){height="500"}
+:::
+
+## Scispace (typeset.io)
+
+
+
+## Scite ai
+
+## Connected Papers
+
+## Paperpal
+
+## Base
+
+Bielefed Academic Search Engine
+
+## Scholarcy
