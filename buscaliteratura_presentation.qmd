@@ -7,7 +7,6 @@ format:
     theme: [night]
 ---
 
-# Introdução
 
 ## Procurando artigos, livros, publicações ...
 
@@ -41,15 +40,16 @@ Tem havido uma explosão no número de ferramentas que utilizam IA e ML para fac
 -   menos com o objetivo de esgotar o potencial de cada uma.
 -->
 
-## Classificação das ferramentas
+## Classificação das ferramentas {.smaller}
+
 
 Uma divisão interessante que tem sido apresentada para estas ferramentas é a classificação quanto à finalidade principal da ferramenta.
 
 |      Finalidade       | Ferramentas                                          |
 |:-------------------------:|:-------------------------------------------|
-|  Busca de Literatura  | Semantic Scholar, Connected Papers, Inciteful e BASE |
-| Revisão de Literatura | Scite AI, Paperpal e Litmaps                         |
-|   Síntese & Análise   | Elicit, Scispace e Scholarcy                         |
+|  Busca de Literatura  | Semantic Scholar, Connected Papers, Inciteful e Litmaps  |
+| Revisão de Literatura | Scite AI, Paperpal, Inciteful e Litmaps                 |
+|   Síntese & Análise   | Elicit, Inciteful, Scispace e Scholarcy                 |
 
 ```{=html}
 <!-- uma divisão interessante que vi neste post no X: tipo de funcionalidade de cada site/app
@@ -59,7 +59,16 @@ Uma divisão interessante que tem sido apresentada para estas ferramentas é a c
 
 -->
 ```
-# Busca de Literatura
+
+* Algumas destas ferramentas podem ser utilizadas para múltiplas tarefas!
+* Para evitar repetir as informações, não usarei esta classificação das ferramentas nesta apresentação!
+
+**Estas ferramentas evoluem rápido; não garanto que os exemplos e telas mostrados aqui ainda sejam os mesmos quando você for usá-las!**
+
+
+
+
+
 
 ## Semantic Scholar
 
@@ -86,9 +95,7 @@ Semantic Scholar cuts through noise to find high-quality, relevant research.
 
 
 
-# Revisão de Literatura
 
-# Síntese & Análise
 
 ## elicit.com (1)
 ::: {style="font-size: 75%"}
@@ -107,58 +114,83 @@ Semantic Scholar cuts through noise to find high-quality, relevant research.
 
 :::
 
-## elicit.com (2)
+## elicit.com (2) {.smaller}
 
--   O Elicit oferece a possibilidade de fazer um "brainstorming" com a pergunta, gerando outras possíveis perguntas interessantes:
+* O elicit, como todas as outras ferramentas, tem uma evolução acelerada. 
+* Às vezes, uma funcionalidade que eu usei para montar essa apresentação, já foi substituída por outra ou por outras melhores.
+* Por exemplo, inicialmente ele fornecia um tipo de "brainstorming" com a sua pergunta inicial, gerando outras possíveis perguntas interessantes:
 
 ![Elicit Brainstorming offer](./figuras/elicit_brainstorming_offer.png){height="100"} ![Elicit Brainstorming example](./figuras/elicit_brainstorming.png){height="150"}
 
-## inciteful.xyz (1)
+## elicit.com (3) {.smaller}
+
+* Agora, a interface já mudou e outras funcionalidades foram acrescentadas:
+  * Ele pode mostrar, para cada paper do resultado (até 4 papers na versão free), diversas colunas (as perguntas do _brainstorming_):
+    * Summary
+    * Main findings
+    * Methodology
+    * Intervention
+    * Outcome measured
+    * Limitations
+  * Ou você pode simplesmente dizer que tipo de dado você quer extrair e ele vai te mostrar!
+
+
+## elicit - Resultado Inicial
+
+![](./figuras/elicit_resultadobusca_colunas.png){height="550"}
+
+
+## elicit - Mais uma coluna
+
+![](./figuras/elicit_resultadobusca_colunas2.png)
+
+
+## inciteful.xyz 
 
 ::: {style="font-size: 75%"}
 
--   Uma ferramenta para a construção de uma rede de artigos científicos;
+- Uma ferramenta para a construção de uma rede de artigos científicos;
+   - A análise desta rede provê *insights* muito relevantes sobre as conexões, citações, etc.
+   - A ferramenta traz os artigos mais relevantes dentro da rede, e um compilado de possíveis revisões sistemáticas, e outros artigos mais importantes, a partir da análise dos dados.
+   - Comece a busca com o título, DOI, URL da PubMed, ou URL do arXiv.
+- Também pode criar algo como um _timeline_, ou seja, como 2 artigos estão conectados.
 
--   A análise desta rede provê *insights* muito relevantes sobre as conexões, citações, etc.
-
--   A ferramenta traz os artigos mais relevantes dentro da rede, e um compilado de possíveis revisões sistemáticas, e outros artigos mais importantes, a partir da análise dos dados.
-
--   Comece a busca com o título, DOI, URL da PubMed, ou URL do arXiv.
 :::
 
-## inciteful.xyz (2)
+---
 
--   Selecionei um artigo dos resultados do Elicit:
+![](./figuras/inciteful_inicial20240912.png)
 
-::: panel-tabset
-## Resultado Elicit
+
+
+## inciteful.xyz - Busca
+
+-   Selecionei um artigo sobre o mesmo tema (câncer de próstata):
 
 ![](./figuras/elicit_resultado.png){height="400"}
 
-## Busca Inciteful
+## inciteful.xyz - Encontrou o artigo
 
 ![](./figuras/inciteful_1.png){height="400"}
-:::
 
-## inciteful.xyz (3)
+## Inciteful - Rede de papers conectados
 
-::: panel-tabset
-## Rede
 
 ![](./figuras/inciteful_rede.png){height="450"}
 
-## Similares
+## Inciteful - Papers Similares
 
 ![](./figuras/inciteful_similares.png){height="450"}
 
-## Mais Importantes
+## Inciteful - Mais importantes e de Revisão
 
 ![](./figuras/inciteful_mostimportantes_review.png){height="450"}
 
-## Top Authors
+## Inciteful - Top authors
 
 ![](./figuras/inciteful_topauthors_recent.png){height="450"}
-:::
+
+
 
 ## Litmaps.com (1)
 
@@ -188,18 +220,18 @@ Semantic Scholar cuts through noise to find high-quality, relevant research.
 
 ![](./figuras/litmaps_resultado.png)
 
-## Litmaps -- usando Discover (login)
+## Litmaps -- usando Discover (login) {.smaller}
 
 ::: panel-tabset
 ## Discover
 
-::: {style="font-size: 80%;"}
+
 -   *Discover* vai buscar artigos relacionados e recomendar novos; fazemos uma conferência cruzada dos novos artigos recomendados com aqueles que já tínhamos em nossa coleção para ver se tem algum novo artigo relevante que não havíamos encontrado.
 
 -   A busca tradicional de literatura tem essa pequena fraqueza: usar apenas *palavras chaves*. Utilizando a busca de artigos relacionados *sem palavras chaves*, o Litmaps consegue prover uma maior diversidade de sugestões.
 
 -   O *Discover* do Litmaps pode sugerir artigos onde, por exemplo, o nome de substâncias ou tópicos são diferentes do que foi utilizado inicialmente na busca.
-:::
+
 
 ## Resultado
 
@@ -240,18 +272,81 @@ Semantic Scholar cuts through noise to find high-quality, relevant research.
 ![](./figuras/evidencehunt_pico.png){height="500"}
 :::
 
-## Scispace (typeset.io)
+## Scispace (typeset.io) {.smaller}
+
+* O Scispace tem uma proposta muito similar ao elicit; até parece que são _irmãos_
+* Vou fazer a busca digitando o nome do artigo "comparison of the epidemiologic features and patterns of initial care for prostate cancer between public and private institutions: a survey by the Brazilian Society of Urology"
+
+![](./figuras/scispace_inicial.png){height="400"}
+
+## Scispace - Resultado
+
+![](./figuras/scispace_resultado.png)
+
+## Scite ai {.smaller}
+
+* Outra ferramenta que parece ser muito interessante, mas tem apenas um _trial_ de 7 dias.
+* Preço individual R$ 52,14/mês - pode ser interessante, precisaria fazer o _trial_ explorando bem os recursos e também comparar com os preços das outras ferramentas que têm essa alternativa.
+
+![](./figuras/scite_ai_inicial.png){height="400"}
+
+## Scite ai - Resultado 
+
+![](./figuras/scite_ai_resultado.png){height="550"}
+
+## Muitas outras ferramentas para busca
+
+* **Connected Papers**: https://www.connectedpapers.com
+  * similar ao Litmaps, Inciteful, etc.
+* **Paperpal**: https://paperpal.com
+  * "Experience the future of academic writing"
+* **Scholarcy**: https://www.scholarcy.com
+  * Summarize, analyze and organize your research
+
+## Google NotebookLM
+
+::: {.r-stack}
+
+::: {.fragment .fade-in-then-out}
+
+* **Google NotebookLM**: https://notebooklm.google/
+  * personalized AI research assistant powered by Google's most capable model, Gemini 1.5 Pro.
+* É uma ferramenta com a proposta de ser um assistente de pesquisa, permitindo que você _converse_ com os seus artigos:
+  * faça perguntas típicas de um pesquisador que está lendo um artigo;
+  * crie rapidamente uma seção "Trabalhos relacionados", com um resumo de cada um, etc.
+
+:::   
+
+![](./figuras/notebookLM_inicial.png){.fragment .fade-in-then-out width=700px}
+
+![](./figuras/notebookLM_inicial2.png){.fragment .fade-in-then-out width=700px}
+
+![](./figuras/notebookLM_conversando.png){.fragment .fade-in-then-out width=700px}
+
+![](./figuras/notebookLM_uploadfontes.png){.fragment .fade-in-then-out width=700px}
+
+::: {.fragment .fade-in-then-out .fade-in-then-out}
+**Faça um sumário deste artigo e depois traga os principais pontos da metodologia empregada**
+:::
+
+![](./figuras/notebookLM_resultado2.png){.fragment .fade-in-then-out .fade-in-then-out width=700px}
 
 
+::: {.fragment .fade-in-then-out}
+**Faça uma comparação das metodologias dos dois artigos**
+:::
 
-## Scite ai
 
-## Connected Papers
+![](./figuras/notebookLM_comparacao_dos_artigos.png){.fragment .fade-in-then-out width=700px}
 
-## Paperpal
+![](./figuras/notebookLM_comparacao_metodologia.png){.fragment .fade-in width=700px}
 
-## Base
+:::
 
-Bielefed Academic Search Engine
+## {background-color="aquamarine"}
 
-## Scholarcy
+::: {.r-fit-text}
+
+ That's all, folks!
+
+:::

@@ -2,39 +2,40 @@
 title: "Gerenciamento de Referências com Zotero"
 author: "Mário O. de Menezes"
 format:
-  revealjs: 
-    theme: moon
+  revealjs:
+    embed-resources: true
+    theme: [night]
 ---
 
-# Gerenciamento de Referências
+## Gerenciamento de Referências
 
 * Referências bibliográficas são elementos básicos do trabalho científico.
 * Podem ser reutilizadas muitas vezes em um mesmo projeto de pesquisa.
 * Podem ser utilizadas por diferentes pessoas em um mesmo projeto de pesquisa.
 * Podem ser utilizadas em diferentes documentos, que exigem diferentes formatações.
 
-# Gerenciamento Manual
+## Gerenciamento Manual
 
 * Dificuldade de atender (entender) todos os padrões de formatação.
 * Dificuldade de reutilizar referências em diferentes documentos.
 * Dificuldade de compartilhar as referências de modo útil.
 * Dificuldade de mudar a formatação para diferentes documentos.
 
-# Gerenciamento com Software
+## Gerenciamento com Software
 
 * Criação de base de referências bibliográficas.
 * Possibilidade de compartilhamento de base com membros de projeto.
 * Padronização na formatação.
 * Facilidade em mudar formatação de acordo com alvo de publicação.
 
-# Softwares para Gerenciamento de Referências
+## Softwares para Gerenciamento de Referências
 
 * Zotero (minha escolha)
 * Mendeley
 * EndNote
 * vários outros
 
-#  Zotero
+##  Zotero
 
 * Software livre para gerenciamento de referências.
 * Web, desktop, extensão Chrome, plugins editores de texto
@@ -42,8 +43,9 @@ format:
    - Base de referências compartilhada
    - Facilidade para documentos na nuvem (Google Docs).
 * Folhas de estilo para formatação.
+* Anotação de PDFs, extração de notas, geração de entrada bibliográfica rápida (copiar e colar)
 
-# Versão Web
+## Versão Web
 
 ::: {#zotero-web layout-ncol=2}
 
@@ -54,7 +56,7 @@ format:
 :::
 
 
-# Cadastro e Validação
+## Cadastro e Validação
 
 ::: {#zotero-web-register layout-ncol=2 }
 
@@ -64,9 +66,9 @@ format:
 
 :::
 
-# Desktop e Extensão Navegadores
+## Desktop, Conector e Mobile {.smaller}
 
-[![](figuras/zotero_desktop_connector.png)](https://www.zotero.org/download/){width=80vw}
+[![](figuras/zotero_desktop_connector.png)](https://www.zotero.org/download/){height="550"}
 
-# Versão Desktop
+
 
